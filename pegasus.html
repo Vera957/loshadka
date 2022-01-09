@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+       .p{width: 100%;
+       height: max-content;
+       background-color: whitesmoke;
+       display: grid;
+       grid-template-rows: max-content;
+       grid-template-columns: 3fr 1fr;
+       grid-gap: 10px;
+       grid-template-areas: 
+       "z z"
+       "p1 p2";}
+
+       .z{width: 100%;
+          height: max-content;
+          background-color: black;
+          color: white;
+          font-family: fantasy;
+          text-align: center;
+          font-size: 35px;
+          grid-area: z;
+          }
+        .p1{background-color: rgb(195, 248, 195);
+            height: max-content;
+            font-size: 25px;
+            grid-area: p1;}
+        .p2{background-color: rgb(201, 243, 243);
+            display: flexbox;
+            text-align: center;
+            grid-area: p2;
+            font-size: 20px;
+            justify-content: center;}
+        a {text-decoration: none;}      
+        a:hover {color: coral;}
+        .div-img {border: white 10px solid;
+                width: max-content;
+                background-color: whitesmoke;
+                text-align: center;
+                float: left;
+                margin: 7px 7px 7px 7px;}
+        img {width: 500px;}
+        ul{list-style: none;
+        padding: 0;}
+        ul li{text-align: center;}
+        .div-facts {
+                    width: 80%;
+                    font-size: 20px;
+                    border: white 5px solid;
+                    /*justify-content: center;*/
+                    margin: auto;
+                    }
+        
+        #first-img{width: 10%;}
+        
+       
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegasus</title>
+</head>
+<body>
+    <main>
+    <div class="p"><div class="z"><br><img id="first-img" src="https://thisgreece.ru/images/850x414x10/pigasos.jpg"><br>Pegasus<br></div>
+        <div class="p1">
+            <div class="div-img">
+                <img src="https://b.3ddd.ru/media/cache/tuk_model_custom_filter_ru/model_images/0000/0000/0802/802272.586ebd24c3996.jpeg">
+                <figcaption>horsefly</figcaption>
+            </div>            
+                 <p>Pegasus was a winged horse that came out of Medusa when she was be-headed by Perseus. The Gorgon Medusa was once a beautiful Lybian princess. Because she was seduced by the sea god Poseidon in the temple consecrated to Athena, Athena transformed her into a monster. She had hair of serpents and anyone who looked at her face was turned into stone.
+            After his birth, Pegasus lived on the Mount Helicon. One day, an ancient Greek hero whose name was Bellerophon believed that he could fly with Pegasus to Olympus, where the gods lived. To prevent him from doing that, Zeus sent a horsefly to bite Pegasus. Bellerophon lost control of his horse and fell back to Earth.
+            Pegasus continued to fly alone and reached Olympus, where <a href="https://en.wikipedia.org/wiki/Zeus" target="_blank">Zeus</a> received him . Since then, he transports thunderbolts for Zeus, who placed his figure in the night sky in the constellation of the winged horse.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Pegasus " id="tribute-link" target="_blank">Story of Pegasus by Wikipedia</a></p></p>
+                    <img id="center-img" src="">
+        </div>
+
+
+        <div class="p2">
+            <h2>Other Greek characters:</h2>
+            <p><a href="https://en.wikipedia.org/wiki/Cronus" target="_blank">Cronus</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Arae" target="_blank">Arae</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Charon" target="_blank">Charon</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Dionysus/" target="_blank">Dionydus</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Chimera_(mythology)" target="_blank">Chimera</a></p>
+            <p id="tribute-info">
+                <div class="div-facts">
+                    <h2>Facts about Pegasus:</h2>
+                    <ul>
+                        <li>have wings</li>
+                        <li>can fly</li>
+                        <li>white</li>
+                    </ul>
+                </div>
+        </div>
+
+    </div>
+        
+</main>
+</body>
+</html>
